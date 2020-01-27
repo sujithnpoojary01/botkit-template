@@ -12,7 +12,7 @@ module.exports = function (controller) {
 
     const convo = new BotkitConversation( 'coffee_chat', controller );
 
-    convo.ask( 'How about some coffee? (yes / no / cancel)', [
+    convo.ask( 'How about some Tea? (yes / no / cancel)', [
         {
             pattern: 'yes|ya|yeah|sure|oui|si',
             handler: async ( response, convo ) => {
